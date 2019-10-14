@@ -63,7 +63,7 @@ public class C_EtherIO {
          int identifier = whatigetis[0];
          int val = whatigetis[1];
          //on concaténation
-         int output = identifier+val;
+         int output = (val&0xFF);
          
          
         return output;
